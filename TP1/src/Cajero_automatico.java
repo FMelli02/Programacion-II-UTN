@@ -3,11 +3,10 @@ public class Cajero_automatico {
     protected static boolean acepta;
     private String devuelve;
 
-    public void procesarPedido(){
-    }
-
-    public boolean pago(double efectivo){
-        return acepta;
+    //Constructor
+    public Cajero_automatico(double efectivo, String devuelve) {
+        this.efectivo = efectivo;
+        this.devuelve = devuelve;
     }
 
     //Getters & Setters
@@ -31,9 +30,13 @@ public class Cajero_automatico {
         this.devuelve = devuelve;
     }
 
-    //Constructor
-    public Cajero_automatico(double efectivo, String devuelve) {
-        this.efectivo = efectivo;
-        this.devuelve = devuelve;
+    //Métodos
+    public void procesarPedido(){
     }
+
+    public boolean pago(double efectivo){
+        return acepta;
+    }
+
+
 }
