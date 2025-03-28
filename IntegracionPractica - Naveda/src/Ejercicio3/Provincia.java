@@ -7,7 +7,7 @@ public class Provincia {
     private int numeroCiudades;
     private ArrayList<Ciudad> ciudades;
 
-    public Provincia(String nombre, int numeroCiudades, ArrayList<Ciudad> ciudades) {
+    public Provincia(String nombre, int numeroCiudades) {
         this.nombre = nombre;
         this.numeroCiudades = numeroCiudades;
         this.ciudades = ciudades;

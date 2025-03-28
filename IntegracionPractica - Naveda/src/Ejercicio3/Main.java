@@ -1,21 +1,34 @@
 package Ejercicio3;
 
 import javax.swing.*;
-import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) {
 
-        float gasto = Float.parseFloat(JOptionPane.showInputDialog("Ingrese el total de gastos"));
-        GastoPublico g = new GastoPublico(gasto);
+        GastoPublico gp = new GastoPublico();
 
-        ArrayList<Impuesto> impuestos = new ArrayList<Impuesto>();
+        gp.setGastos(Float.parseFloat(JOptionPane.showInputDialog("Ingrese el total de gastos:")));
 
-        for (int i = 0; i < 5; i++) {
-            float imp = Float.parseFloat(JOptionPane.showInputDialog("Ingrese el valor del impuesto " + (i+1)));
-            impuestos.add(new Impuesto(imp));
+        Impuesto impuesto = new Impuesto();
+
+        impuesto.setMontoImpuesto(Float.parseFloat(JOptionPane.showInputDialog("Ingrese el total de impuestos:")));
+
+        Ciudad c = new Ciudad("Mendoza", 1000000, gp, impuesto);
+
+        c.mostrarCiudad();
+
+        System.out.print("La ciudad tiene más de 100000 habitantes? ");
+        if (c.mayorCienMilHabitantes()) {
+            System.out.println("Si");
+        } else {
+            System.out.println("No");
         }
-        Ciudad c = new Ciudad("Mendoza", 100000, 10000);
-        System.out.println("La ciudad tiene deficit? " + c.tieneDeficit());
+
+        System.out.print("La ciudad tiene deficit? ");
+        if (c.tieneDeficit()) {
+            System.out.println("Si");
+        } else {
+            System.out.println("No");
+        }
     }
 }

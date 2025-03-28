@@ -3,13 +3,14 @@ package Ejercicio3;
 public class Ciudad {
     private String nombre;
     private int poblacion;
-    private float gasto;
+    private GastoPublico gasto;
     private Impuesto impuesto;
 
-    public Ciudad(String nombre, int poblacion, float gasto) {
+    public Ciudad(String nombre, int poblacion, GastoPublico gasto, Impuesto impuesto) {
         this.nombre = nombre;
         this.poblacion = poblacion;
         this.gasto = gasto;
+        this.impuesto = impuesto;
     }
 
     public boolean mayorCienMilHabitantes() {
@@ -17,14 +18,13 @@ public class Ciudad {
     }
 
     public boolean tieneDeficit() {
-        return gasto > impuesto.getTotal();
+        return gasto.getGastos() > impuesto.getMontoImpuesto();
     }
 
-    public Impuesto getImpuesto() {
-        return impuesto;
-    }
-
-    public void setImpuesto(Impuesto impuesto) {
-        this.impuesto = impuesto;
+    public void mostrarCiudad() {
+        System.out.println("Nombre: " + this.nombre);
+        System.out.println("Poblacion: " + this.poblacion);
+        System.out.println("Gasto: " + this.gasto.getGastos());
+        System.out.println("Impuesto: " + this.impuesto.getMontoImpuesto());
     }
 }
