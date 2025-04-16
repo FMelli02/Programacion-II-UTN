@@ -9,8 +9,8 @@ public class Pais {
 
     public Pais(String nombre) {
         this.nombre = nombre;
-        this.limitaCon = limitaCon;
-        this.provincias = provincias;
+        this.limitaCon = new ArrayList<Pais>();
+        this.provincias = new ArrayList<Provincia>();
     }
 
     public String getNombre() {
@@ -19,6 +19,22 @@ public class Pais {
 
     public void setNombre(String nombre) {
         this.nombre = nombre;
+    }
+
+    public ArrayList<Pais> getLimitaCon() {
+        return limitaCon;
+    }
+
+    public void setLimitaCon(ArrayList<Pais> limitaCon) {
+        this.limitaCon = limitaCon;
+    }
+
+    public ArrayList<Provincia> getProvincias() {
+        return provincias;
+    }
+
+    public void setProvincias(ArrayList<Provincia> provincias) {
+        this.provincias = provincias;
     }
 
     public void agregarFrontera(Pais pais) {
