@@ -3,7 +3,7 @@ package TPExcepciones;
 import java.io.FileReader;
 import java.io.IOException;
 
-public class Ejercicio4 {
+public class Ejercicio4A {
     public static void main(String[] args) {
         try {
             FileReader archivo = new FileReader("archivo.txt");

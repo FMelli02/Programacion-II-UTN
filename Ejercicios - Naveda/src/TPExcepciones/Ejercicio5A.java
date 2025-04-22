@@ -1,6 +1,6 @@
 package TPExcepciones;
 
-public class Ejercicio5 {
+public class Ejercicio5A {
     public static void lanzarExcepcion(int tipo) throws ArithmeticException, NumberFormatException, ArrayIndexOutOfBoundsException{
         switch (tipo) {
             case 1:
