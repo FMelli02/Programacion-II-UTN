@@ -2,12 +2,12 @@ package EjercicioRepaso;
 
 public class ColisionCensor {
     public String colision;
-    private PathAgent receptor;
+    //private PathAgent receptor;
 
     public ColisionCensor(String colision) {
         this.colision = colision;
     }
-    public ColisionCensor(PathAgent receptor) {
+    /*public ColisionCensor(PathAgent receptor) {
         this.receptor = receptor;
     }
 
@@ -17,5 +17,10 @@ public class ColisionCensor {
 
     public void setReceptor(PathAgent receptor) {
         this.receptor = receptor;
+    }*/
+
+    public void mostrarColisionCensor() {
+        System.out.println("Atributo Colision: " + colision);
+        System.out.println("Se asocia a PathAgent mediante clase Asociativa Cost");
     }
 }
