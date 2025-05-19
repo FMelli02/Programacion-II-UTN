@@ -1,3 +1,5 @@
+package modelo;
+
 public interface InterfaceLibro {
     String cuit = "4546366228";
 

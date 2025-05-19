@@ -1,13 +1,15 @@
+package modelo;
+
 import java.util.ArrayList;
 
-public class Autor extends Persona implements InterfaceLibro{
+public class Autor extends Persona{
     public String pseudonimo;
     private ArrayList<Libro> librosescritos;
 
     public Autor() {
     }
 
-    public Autor(int dni, String nombre, String pseudonimo, ArrayList<Libro> librosescritos) {
+    public Autor(int dni, String nombre, String pseudonimo) {
         super(dni, nombre);
         this.pseudonimo = pseudonimo;
         this.librosescritos = librosescritos;
@@ -22,17 +24,8 @@ public class Autor extends Persona implements InterfaceLibro{
     }
 
     @Override
-    public int cantidad_paginas(Libro libro) {
-        return 0;
+    public String toString() {
+        return "Autor: " + nombre + " (DNI: " + dni + ", Pseudónimo: " + pseudonimo + ")";
     }
 
-    @Override
-    public String idioma_primario() {
-        return "";
-    }
-
-    @Override
-    public String[] traducciones() {
-        return new String[0];
-    }
 }
