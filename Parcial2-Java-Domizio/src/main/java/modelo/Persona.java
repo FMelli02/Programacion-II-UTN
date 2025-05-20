@@ -13,9 +13,4 @@ public class Persona implements Serializable {
 
     public int getDni() { return dni; }
     public String getNombre() { return nombre; }
-
-    @Override
-    public String toString() {
-        return "Persona: " + nombre + " (DNI: " + dni + ")";
-    }
 }

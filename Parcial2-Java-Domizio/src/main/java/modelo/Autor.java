@@ -11,10 +11,5 @@ public class Autor extends Persona {
     public String getPseudonimo() {
         return pseudonimo;
     }
-
-    @Override
-    public String toString() {
-        return "Autor: " + nombre + " (DNI: " + dni + ", Pseudónimo: " + pseudonimo + ")";
-    }
 }
 

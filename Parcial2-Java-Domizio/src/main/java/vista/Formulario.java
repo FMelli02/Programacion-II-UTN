@@ -85,12 +85,19 @@ public class Formulario {
                 String pseudo = txtPseudonimo.getText();
                 boolean esAutor = comboTipo.getSelectedItem().equals("Autor");
 
+                // Validar nombre sin números
+                if (!nombre.matches("^[a-zA-ZáéíóúÁÉÍÓÚñÑ\\s]+$")) {
+                    throw new IllegalArgumentException("El nombre no puede contener números ni símbolos.");
+                }
+
                 PersonaControlador.guardarPersona(dni, nombre, esAutor, pseudo);
                 salida.setText(esAutor
                         ? "Autor guardado: " + nombre + " (" + pseudo + ")"
                         : "Persona guardada: " + nombre);
             } catch (NumberFormatException ex) {
                 JOptionPane.showMessageDialog(frame, "DNI debe ser un número.");
+            } catch (IllegalArgumentException ex) {
+                JOptionPane.showMessageDialog(frame, ex.getMessage());
             }
         });
 
