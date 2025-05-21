@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.example.cuenta.CuentaTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-05-21T12:31:32" hostname="FRANCO" time="0.046">
+  <properties/>
+  <testcase name="Probando el saldo" classname="org.example.cuenta.CuentaTest" time="0.043"/>
+  <testcase name="probando el nombre" classname="org.example.cuenta.CuentaTest" time="0.002"/>
+  <system-out><![CDATA[Finalizando el método
+Finalizando el método
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
