@@ -1,0 +1,4 @@
+2025-05-21 13:45:46,281 [JuanPerez] INFO  La aplicación se ha iniciado correctamente.
+2025-05-21 13:45:46,285 [JuanPerez] WARN  Este es un mensaje de advertencia.
+2025-05-21 13:45:46,285 [JuanPerez] ERROR Este es un mensaje de error.
+2025-05-21 13:45:46,294 [JuanPerez] INFO  Finalizando ejecución.

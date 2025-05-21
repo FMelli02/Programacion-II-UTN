@@ -1,0 +1,4 @@
+2025-05-21 13:45:46,281 INFO c.e.m.MilogApplication [main] La aplicación se ha iniciado correctamente.
+2025-05-21 13:45:46,285 WARN c.e.m.MilogApplication [main] Este es un mensaje de advertencia.
+2025-05-21 13:45:46,285 ERROR c.e.m.MilogApplication [main] Este es un mensaje de error.
+2025-05-21 13:45:46,294 INFO c.e.m.MilogApplication [main] Finalizando ejecución.

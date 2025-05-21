@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN" packages="com.ejemplo.milog">
+
+    <Appenders>
+
+        <!-- Consola -->
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%-5level] [%X{usuario}] %msg%n"/>
+        </Console>
+
+        <!-- Archivo simple -->
+        <File name="FileLog" fileName="logs/log.txt">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} [%-5level] %msg%n"/>
+        </File>
+
+        <!-- Archivo con HTMLLayout -->
+        <Console name="HtmlConsole" target="SYSTEM_OUT">
+            <HTMLLayout/>
+        </Console>
+
+        <!-- Rolling cada 2 minutos -->
+        <RollingFile name="RollingFile" fileName="logs/app.log"
+                     filePattern="logs/rotacion2min/app-%d{MM-dd-yyyy-HH-mm}.log.gz">
+            <PatternLayout pattern="%d %p %c{1.} [%t] %m%n"/>
+            <Policies>
+                <TimeBasedTriggeringPolicy interval="2" modulate="true"/>
+            </Policies>
+        </RollingFile>
+
+        <!-- Rolling con cron cada 2 minutos -->
+        <RollingFile name="CronFile" fileName="logs/cron.log"
+                     filePattern="logs/cron/cron-%d{MM-dd-yyyy-HH-mm}.log.gz">
+            <PatternLayout pattern="%d %p %c{1.} [%t] %m%n"/>
+            <Policies>
+                <CronTriggeringPolicy schedule="0 0/2 * * * ?"/>
+            </Policies>
+        </RollingFile>
+
+        <!-- Formato 1 -->
+        <File name="Format1" fileName="logs/f1.log">
+            <PatternLayout pattern="%d{yyyy-MM-dd} [%t] %-5p %c - %m%n"/>
+        </File>
+
+        <!-- Formato 2 -->
+        <File name="Format2" fileName="logs/f2.log">
+            <PatternLayout pattern="%r ms [%t] %-5level %logger{36} - %msg%n"/>
+        </File>
+
+        <!-- Formato 3 -->
+        <File name="Format3" fileName="logs/f3.log">
+            <PatternLayout pattern="%F:%L %M - %msg%n"/>
+        </File>
+
+        <!-- Formato 4 con ThreadContext -->
+        <File name="Format4" fileName="logs/f4.log">
+            <PatternLayout pattern="%d [%X{usuario}] %-5p %msg%n"/>
+        </File>
+
+    </Appenders>
+
+    <Loggers>
+        <Root level="info">
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="FileLog"/>
+            <AppenderRef ref="HtmlConsole"/>
+            <AppenderRef ref="RollingFile"/>
+            <AppenderRef ref="CronFile"/>
+            <AppenderRef ref="Format1"/>
+            <AppenderRef ref="Format2"/>
+            <AppenderRef ref="Format3"/>
+            <AppenderRef ref="Format4"/>
+        </Root>
+    </Loggers>
+
+</Configuration>

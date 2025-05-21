@@ -1,0 +1,4 @@
+2025-05-21 [main] INFO  com.ejemplo.milog.MilogApplication - La aplicación se ha iniciado correctamente.
+2025-05-21 [main] WARN  com.ejemplo.milog.MilogApplication - Este es un mensaje de advertencia.
+2025-05-21 [main] ERROR com.ejemplo.milog.MilogApplication - Este es un mensaje de error.
+2025-05-21 [main] INFO  com.ejemplo.milog.MilogApplication - Finalizando ejecución.

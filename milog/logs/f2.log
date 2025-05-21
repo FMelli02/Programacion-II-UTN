@@ -1,0 +1,4 @@
+469 ms [main] INFO  com.ejemplo.milog.MilogApplication - La aplicación se ha iniciado correctamente.
+473 ms [main] WARN  com.ejemplo.milog.MilogApplication - Este es un mensaje de advertencia.
+473 ms [main] ERROR com.ejemplo.milog.MilogApplication - Este es un mensaje de error.
+482 ms [main] INFO  com.ejemplo.milog.MilogApplication - Finalizando ejecución.
