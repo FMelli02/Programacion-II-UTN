@@ -2,7 +2,7 @@ package modelo;
 
 import java.io.Serializable;
 
-public class Persona implements Serializable {
+public class Persona implements Serializable { //Implementa Serializable para persistencia de datos
     protected int dni;
     protected String nombre;
 
