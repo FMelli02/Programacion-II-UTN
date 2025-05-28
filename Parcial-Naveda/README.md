@@ -86,7 +86,7 @@ config.setPassword(""); // Cambiar si tenés contraseña
 1. **Desde consola:**
 ```bash
 gradle build
-java -cp build/classes/java/main main.App
+java -cp build/classes/java/main/com/example/main main.App
 ```
 2. **Seguir el menú interactivo de la consola:**
 ```
