@@ -1,0 +1,82 @@
+[2025-05-27 16:17:13] [INFO] com.example.main.App - Usuario agregado exitosamente
+[2025-05-27 16:19:46] [INFO] com.example.main.App - Usuario agregado exitosamente
+[2025-05-27 16:20:36] [INFO] com.example.main.App - Pelicula agregada exitosamente
+[2025-05-27 16:23:58] [INFO] com.example.main.App - Usuario agregado exitosamente
+[2025-05-27 16:24:20] [INFO] com.example.main.App - Pelicula agregada exitosamente
+[2025-05-27 16:24:57] [INFO] com.example.main.App - Usuario agregado exitosamente
+[2025-05-27 16:25:16] [INFO] com.example.main.App - Usuario agregado exitosamente
+[2025-05-27 16:25:44] [INFO] com.example.main.App - Pelicula agregada exitosamente
+[2025-05-27 16:26:19] [INFO] com.example.main.App - Pelicula agregada exitosamente
+[2025-05-27 16:26:34] [INFO] com.example.main.App - Favorito agregado exitosamente
+[2025-05-27 16:31:26] [INFO] com.example.main.App - Favorito agregado exitosamente
+[2025-05-27 16:34:26] [INFO] com.example.main.App - Favorito agregado exitosamente
+[2025-05-27 16:34:43] [ERROR] com.example.main.App - Error procesando opción: 
+java.lang.NumberFormatException: For input string: "Franco Mellimaci"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:67) ~[?:?]
+	at java.lang.Integer.parseInt(Integer.java:668) ~[?:?]
+	at java.lang.Integer.parseInt(Integer.java:786) ~[?:?]
+	at com.example.main.App.main(App.java:72) [main/:?]
+[2025-05-27 16:34:56] [INFO] com.example.main.App - Usuario agregado exitosamente
+[2025-05-27 16:35:17] [ERROR] com.example.main.App - Error procesando opción: 
+java.lang.NumberFormatException: For input string: "2,4"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:67) ~[?:?]
+	at java.lang.Integer.parseInt(Integer.java:668) ~[?:?]
+	at java.lang.Integer.parseInt(Integer.java:786) ~[?:?]
+	at com.example.main.App.main(App.java:48) [main/:?]
+[2025-05-27 16:48:02] [ERROR] com.example.main.App - Error procesando opción: 
+java.lang.NumberFormatException: For input string: "u"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:67) ~[?:?]
+	at java.lang.Integer.parseInt(Integer.java:668) ~[?:?]
+	at java.lang.Integer.parseInt(Integer.java:786) ~[?:?]
+	at com.example.main.App.main(App.java:72) [main/:?]
+[2025-05-27 18:23:38] [INFO] com.example.main.App - Usuario agregado exitosamente
+[2025-05-27 18:24:03] [INFO] com.example.main.App - Usuario agregado exitosamente
+[2025-05-27 18:24:38] [INFO] com.example.main.App - Usuario actualizado exitosamente
+[2025-05-27 18:24:58] [INFO] com.example.main.App - Usuario actualizado exitosamente
+[2025-05-27 18:25:25] [INFO] com.example.main.App - Usuario actualizado exitosamente
+[2025-05-27 18:25:52] [INFO] com.example.main.App - Usuario actualizado exitosamente
+[2025-05-27 18:26:06] [INFO] com.example.main.App - Usuario eliminado exitosamente
+[2025-05-27 18:27:49] [INFO] com.example.main.App - Pelicula agregada exitosamente
+[2025-05-27 18:28:25] [INFO] com.example.main.App - Pelicula agregada exitosamente
+[2025-05-27 18:29:16] [INFO] com.example.main.App - Película actualizada exitosamente
+[2025-05-27 18:29:28] [INFO] com.example.main.App - Película eliminada exitosamente
+[2025-05-27 18:29:55] [INFO] com.example.main.App - Pelicula agregada exitosamente
+[2025-05-27 18:30:47] [INFO] com.example.main.App - Favorito agregado exitosamente
+[2025-05-27 18:31:10] [INFO] com.example.main.App - Favorito eliminado exitosamente
+[2025-05-27 19:02:26] [INFO] com.example.main.App - Usuario agregado exitosamente
+[2025-05-27 19:03:03] [INFO] com.example.main.App - Favorito agregado exitosamente
+[2025-05-27 19:03:47] [INFO] com.example.main.App - Favorito eliminado exitosamente
+[2025-05-27 19:03:55] [INFO] com.example.main.App - Favorito agregado exitosamente
+[2025-05-27 19:19:23] [INFO] com.example.main.App - Usuario agregado exitosamente
+[2025-05-27 19:20:08] [INFO] com.example.main.App - Usuario actualizado exitosamente
+[2025-05-27 19:20:19] [INFO] com.example.main.App - Usuario eliminado exitosamente
+[2025-05-27 19:21:14] [INFO] com.example.main.App - Pelicula agregada exitosamente
+[2025-05-27 19:22:12] [INFO] com.example.main.App - Película actualizada exitosamente
+[2025-05-27 19:22:21] [INFO] com.example.main.App - Película eliminada exitosamente
+[2025-05-27 19:22:47] [INFO] com.example.main.App - Película eliminada exitosamente
+[2025-05-27 19:23:24] [INFO] com.example.main.App - Película eliminada exitosamente
+[2025-05-27 19:23:45] [INFO] com.example.main.App - Pelicula agregada exitosamente
+[2025-05-27 19:24:12] [INFO] com.example.main.App - Favorito agregado exitosamente
+[2025-05-27 20:08:24] [INFO] com.example.main.App - Usuario agregado exitosamente
+[2025-05-27 20:08:42] [INFO] com.example.main.App - Pelicula agregada exitosamente
+[2025-05-27 20:08:55] [INFO] com.example.main.App - Favorito agregado exitosamente
+[2025-05-27 20:13:13] [ERROR] com.example.main.App - Error procesando opción: 
+java.lang.NullPointerException: Cannot invoke "com.example.model.Pelicula.getTitulo()" because "this.pelicula" is null
+	at com.example.model.Favorito.toString(Favorito.java:36) ~[main/:?]
+	at java.lang.String.valueOf(String.java:4222) ~[?:?]
+	at java.io.PrintStream.println(PrintStream.java:1047) ~[?:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at com.example.main.App.main(App.java:177) [main/:?]
+[2025-05-27 20:13:39] [INFO] com.example.main.App - Favorito agregado exitosamente
+[2025-05-27 20:13:45] [ERROR] com.example.main.App - Error procesando opción: 
+java.lang.NullPointerException: Cannot invoke "com.example.model.Pelicula.getTitulo()" because "this.pelicula" is null
+	at com.example.model.Favorito.toString(Favorito.java:36) ~[main/:?]
+	at java.lang.String.valueOf(String.java:4222) ~[?:?]
+	at java.io.PrintStream.println(PrintStream.java:1047) ~[?:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at com.example.main.App.main(App.java:177) [main/:?]
+[2025-05-27 21:07:27] [INFO] com.example.main.App - Usuario agregado exitosamente
+[2025-05-27 21:07:35] [INFO] com.example.main.App - Usuario eliminado exitosamente
+[2025-05-27 21:07:47] [INFO] com.example.main.App - Usuario eliminado exitosamente
+[2025-05-27 21:07:54] [INFO] com.example.main.App - Usuario eliminado exitosamente
+[2025-05-27 21:08:12] [INFO] com.example.main.App - Favorito eliminado exitosamente
