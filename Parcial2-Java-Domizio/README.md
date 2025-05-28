@@ -15,7 +15,7 @@ Este proyecto es una aplicación de escritorio Java desarrollada bajo el patrón
 - [✨ Características Destacadas](#-características-destacadas)
 - [🔮 Mejoras Futuras](#-mejoras-futuras)
 - [🏫 Cátedra](#-cátedra)
-- [👨‍💻 Autor](#-autor)
+- [👨‍💻 Autores](#-autores)
 
 ---
 
