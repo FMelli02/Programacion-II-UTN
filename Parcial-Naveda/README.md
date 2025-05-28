@@ -42,8 +42,8 @@ Aplicación de consola en Java que permite gestionar una plataforma de película
 
 1. **Clonar o descargar el repositorio:**
 ```bash
-git clone https://github.com/tuusuario/plataforma-peliculas.git
-cd plataforma-peliculas
+git clone https://github.com/FMelli02/Programacion-II-UTN/tree/44e7a1cb5e1b83529ed7b9f1f2c440f56a8dace3/Parcial-Naveda
+cd Parcial-Naveda
 ```
 2. **Crear la base de datos en MySQL:**
 ```sql
